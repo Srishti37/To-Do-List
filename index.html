@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todoBox">
+            <h1>TO-DO-List <img src="media/checklist.gif"></h1>
+            <form>
+            <div class="todoAdd">
+                    <input type="text" id="inputBox" placeholder='Add your text'>
+                  <button type="submit" onclick="addNote()">Add</button>
+                </div>
+                </form>
+
+            <ul id="listContainer"></ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
